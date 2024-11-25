@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Rumo a Paris e Roma</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-paris.png" alt="Imagem de Paris">
+            <p>Eu estava em casa quando encontrei um bilhete misterioso: "Seu destino te aguarda em Paris e Roma". Decidi seguir o roteiro de viagem e embarcar nessa aventura!</p>
+            <button class="btn-proximo" data-proximo="1">Paris</button>
+            <button class="btn-proximo" data-proximo="2">Roma</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Paris, admirando a icônica Torre Eiffel. Logo percebe que há uma pista misteriosa sobre o próximo destino.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar a Torre Eiffel</button>
+            <button class="btn-proximo" data-proximo="4">Explorar o Museu do Louvre</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Roma, você começa sua viagem pelo Coliseu. A cidade está cheia de história e charme. Onde você vai primeiro?</p>
+            <button class="btn-proximo" data-proximo="5">Visitar o Vaticano</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a Fontana di Trevi</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você encontra uma pista no topo da Torre Eiffel, indicando que o próximo local para visitar é Roma.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Roma</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-louvre.png" alt="Imagem do Museu do Louvre">
+            <p>No Museu do Louvre, você encontra um mapa antigo, revelando que o próximo destino é o Vaticano em Roma.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Roma</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Após visitar o Vaticano, você encontra uma carta com novas pistas sobre o que fazer em Roma.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para a próxima pista em Roma</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Enquanto explora a Fontana di Trevi, você encontra um antigo diário que revela segredos sobre os próximos passos da viagem.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para a próxima pista em Roma</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você chega em Roma e se depara com o magnífico Coliseu. A pista leva você ao Vaticano.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o Vaticano</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você segue para o próximo destino e se encontra na Villa Borghese, onde descobre a entrada secreta para uma vila histórica escondida em Roma.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar a vila histórica</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>No Vaticano, você encontra uma pista que revela um segredo escondido, levando a um misterioso local.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir para o próximo passo</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-vila-secreta.png" alt="Explorando a vila secreta">
+            <p>Dentro da vila histórica, você encontra tesouros culturais e decide dedicar sua vida à preservação desses achados.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
